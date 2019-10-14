@@ -1,0 +1,40 @@
+body {
+    background-color: powderblue;
+    font-family: Comic Sans MS;
+}
+
+H2 {
+    color: teal;
+}
+
+p {
+    color: teal;
+    font-size: 14pt;
+}
+
+nav {
+    border-bottom: 3px solid teal;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
